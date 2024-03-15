@@ -5,7 +5,7 @@ POST http://localhost:3000/books
 Content-Type: application/json
 
 {
-    "id":"4",
+    "id":"6",
     "title":"The godfather",
     "author":"Mario Puzao"
 }
