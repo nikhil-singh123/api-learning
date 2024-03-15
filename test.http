@@ -1,0 +1,14 @@
+GET http://localhost:3000/books
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "id":"4",
+    "title":"The godfather",
+    "author":"Mario Puzao"
+}
+###
+
+DELETE http://localhost:3000/books/4
